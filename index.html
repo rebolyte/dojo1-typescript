@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<title>Testing Dojo with TypeScript</title>
+
+	<link rel="stylesheet" href="../lib/dojo-sdk/dijit/themes/claro/claro.css" 
+		type="text/css">
+
+	<script>
+	    var dojoConfig = {
+	    	async: true, 
+	    	locale: 'en-us',
+	    	isDebug: true,
+	    	deps: ['bootstrap.js']
+	    };
+	</script>
+	<script src="../lib/dojo-sdk/dojo/dojo.js"></script>
+</head>
+<body class="claro">
+
+<h1>Dojo + TypeScript</h1>
+
+<p>Here we go.</p>
+	
+<button id="btn1" data-dojo-type="dijit/form/Button">Button 1</button>
+<button id="btn2" data-dojo-type="dijit/form/Button">Button 2</button>
+
+<br><br>
+
+<div id="greeting"></div>
+
+</body>
+</html>
